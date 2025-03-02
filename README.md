@@ -27,8 +27,7 @@ The backend is built with Python using the FastAPI framework. It manages the cor
    ```
 
 3. Set up environment variables:
-   - Copy `.env.example` to `.env`
-   - Fill in the required API keys and configuration settings
+   - Fill in the required API keys and configuration settings in `constant.py`
 
 4. Run the backend server:
    ```

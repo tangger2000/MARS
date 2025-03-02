@@ -13,8 +13,8 @@ API_KEY = "dataset-OFxH5fwjOmYnfBsQkSWm8gHs"
 DATASETS_NAME = ["2d-mat-new", "eval-paper-new", "gold-nanorod-new", "PSK-new", "phospholipid"]
 N_THREADS = 32#multiprocessing.cpu_count()  # 使用所有可用的CPU核心
 
-OPENAI_API_KEY = "sk-urFGAQRThR6pysea0aC93bD27fA34bA69811A9254aAaD8B2"
-OPENAI_BASE_URL = "https://vip.apiyi.com/v1"
+OPENAI_API_KEY = ""
+OPENAI_BASE_URL = ""
 # MODEL_NAME = "chatgpt-4o-latest"
 MODEL_NAME = "o3-mini"
 # MODEL_NAME = "deepseek-reasoner"

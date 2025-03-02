@@ -13,12 +13,12 @@ from multiagent import _multiagent_with_rag_cot
 from autogen_core.models import ModelFamily
 
 
-OPENAI_API_KEY = "sk-urFGAQRThR6pysea0aC93bD27fA34bA69811A9254aAaD8B2"
-# OPENAI_BASE_URL = "http://154.44.26.195:17935/v1"
-OPENAI_BASE_URL = "https://vip.apiyi.com/v1"
+OPENAI_API_KEY = ""
+# OPENAI_BASE_URL = ""
+OPENAI_BASE_URL = ""
 MODEL_NAME = "chatgpt-4o-latest"
-DATASET_PATH = "_backend/evaluate/eval_rag_dataset"
-EVAL_RESULT_PATH = "_backend/evaluate/eval_rag_result"
+DATASET_PATH = "backend/evaluate/eval_rag_dataset"
+EVAL_RESULT_PATH = "backend/evaluate/eval_rag_result"
 
 
 def load_eval_rag_dataset(dataset_path: str) -> DatasetDict:

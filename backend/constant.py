@@ -4,10 +4,10 @@ from autogen_ext.code_executors.docker import DockerCommandLineCodeExecutor
 
 
 # Define your API keys and configurations
-OPENAI_API_KEY = "sk-4aJj5ygdQ9rw6lS6920712Ef9bB848439522E72318439eCd"
-# OPENAI_BASE_URL = "http://154.44.26.195:17935/v1"
-OPENAI_BASE_URL = "http://159.75.70.95:17935/v1"
-# OPENAI_BASE_URL = "https://vip.apiyi.com/v1"
+OPENAI_API_KEY = ""
+# OPENAI_BASE_URL = ""
+OPENAI_BASE_URL = ""
+# OPENAI_BASE_URL = ""
 
 # MODEL = "chatgpt-4o-latest"
 MODEL = "gpt-4o-2024-11-20"

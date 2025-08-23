@@ -45,30 +45,12 @@ graph TB
         ANA[📊 Analyst Team]
     end
     
-    subgraph "🗄️ Knowledge & Data"
-        KG[📚 GraphRAG Knowledge]
-        NEO[Neo4j Database]
-        S3[☁️ S3 Storage]
-    end
-    
-    subgraph "🔧 Hardware Interface"
-        MW[C# WPF Middleware]
-        ROBOT[🦾 Physical Robots]
-    end
-    
     FE --> API
     API --> ORCH
     ORCH --> SCI
     ORCH --> ENG
     ORCH --> ROB
     ORCH --> ANA
-    
-    SCI --> KG
-    KG --> NEO
-    ENG --> S3
-    ROB --> MW
-    MW --> ROBOT
-    ANA --> NEO
 ```
 
 ## 🚀 快速开始
@@ -167,6 +149,9 @@ npm run dev
 ### 🔧 错误处理机制
 - [重新规划示例](examples/err-deal/re-plan.md)
 - [工具调用错误处理](examples/err-deal/tool-call.md)
+
+### 🤖 机器学习配方优化
+- [随机森林 + 贝叶斯优化](rf+bo/) - 包含真实实验数据和Jupyter笔记本。
 
 ### 📊 知识图谱可视化
 - [材料科学知识图谱](examples/graph-of-knowledge-base/)

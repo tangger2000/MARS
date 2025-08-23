@@ -43,17 +43,7 @@ graph TB
         ROB[🤖 Robot Platform]
         ANA[📊 Analyst Team]
     end
-    
-    subgraph "🗄️ Knowledge & Data"
-        KG[📚 GraphRAG Knowledge]
-        NEO[Neo4j Database]
-        S3[☁️ S3 Storage]
-    end
-    
-    subgraph "🔧 Hardware Interface"
-        MW[C# WPF Middleware]
-        ROBOT[🦾 Physical Robots]
-    end
+
     
     FE --> API
     API --> ORCH
@@ -61,13 +51,6 @@ graph TB
     ORCH --> ENG
     ORCH --> ROB
     ORCH --> ANA
-    
-    SCI --> KG
-    KG --> NEO
-    ENG --> S3
-    ROB --> MW
-    MW --> ROBOT
-    ANA --> NEO
 ```
 
 ##  Quick Start
@@ -166,6 +149,9 @@ We provide extensive real-world operation logs in the `examples/` directory:
 ###  🔧 Error Handling Mechanisms
 - [Replanning Example](examples/err-deal/re-plan.md)
 - [Tool Call Error Handling](examples/err-deal/tool-call.md)
+
+### 🤖 Machine Learning Recipe Optimization
+- [Random Forest + Bayesian Optimization](rf+bo/) - Contains real experimental data and Jupyter notebook.
 
 ###  📊 Knowledge Graph Visualization
 - [Materials Science Knowledge Graph](examples/graph-of-knowledge-base/)
